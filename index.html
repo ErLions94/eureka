@@ -1,27 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Instagram</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .div1, .div2, .div3 {
+            height: 33vh; /* Ognuno dei tre div avrà un terzo dell'altezza della finestra */
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+        }
+    </style>
+    <title>Div che coprono il 100% dell'altezza dello schermo</title>
 </head>
 <body>
-    <div class="sopra">AGORA FILT</div>
-    <div class="scroll-container">
-        <!-- Le tue immagini andranno qui -->
-        <div class="image1">
-            <h1>VERTENZA</h1>
-        </div>
-        <div class="image2">
-            <h1>ASSUNZIONI</h1>
-        </div>
-        <div class="image3">
-            <h1>REFEZIONE</h1>
-        </div>
-        <!-- Aggiungi altre immagini secondo necessità -->
-    </div>
-    <div class="sotto">Iscriviti!</div>
 
-    <script src="script.js"></script>
+    <div class="div1">
+        Div 1
+    </div>
+
+    <div class="div2">
+        Div 2
+    </div>
+
+    <div class="div3">
+        Div 3
+    </div>
+
 </body>
 </html>
