@@ -3,39 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .div1, .div2, .div3 {
-            height: 33vh; /* Ognuno dei tre div avrà un terzo dell'altezza della finestra */
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2em;
-        }
-    </style>
-    <title>Div che coprono il 100% dell'altezza dello schermo</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Sito con layout Instagram-like</title>
 </head>
 <body>
 
-    <div class="div1">
-        Div 1
-    </div>
+    <header>
+        <!-- Barra di navigazione o header del sito -->
+        <h1>Il tuo Sito</h1>
+    </header>
 
-    <div class="div2">
-        Div 2
-    </div>
+    <main>
+        <!-- Contenuto principale -->
+        <div class="instagram-like-feed">
+            <!-- Le tue immagini o post andranno qui -->
+            <div class="post">Post 1</div>
+            <div class="post">Post 2</div>
+            <!-- Aggiungi altri post secondo necessità -->
+        </div>
+    </main>
 
-    <div class="div3">
-        Div 3
-    </div>
+    <footer>
+        <!-- Piede di pagina del sito -->
+        <p>&copy; 2024 Il Tuo Sito</p>
+    </footer>
 
 </body>
 </html>
