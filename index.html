@@ -9,15 +9,24 @@
     <style>
         
     @media (max-width: 767px) {
-    <div class="top">
-        <h1>VIVA LA FILT!</h1>
-    </div>
+        header .testi footer {display: none;}
+        .top {display: unset;}
+    }
 
     @media (max-width: 480px) {
+        header .testi footer {display: unset;}
+        .top {display: none;}
+    }
+    
+    </style>
     <header>
         <!-- Barra di navigazione o header del sito -->
         <h1>Agorà FILT</h1>
     </header>
+
+        <div class="top">
+            <h1>VIVA LA FILT!</h1>
+        </div>
 
     <main>
         <!-- Contenuto principale -->
@@ -34,6 +43,5 @@
         <p>Iscriviti alla FILT</p>
     </footer>
     }
-    </style>
 </body>
 </html>
