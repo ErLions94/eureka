@@ -1,72 +1,36 @@
 body {
-    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1, h2 {
-    color:rgb(233, 8, 8)
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-p {
-    color: rgb(30, 20, 100);
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 40px;
-}
-
-.cartao {
-    background-color: aliceblue;
-    border: 1px solid #f0f0f0;
-    border-radius: 16px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 4);
-    width: 400px;
-    margin: 50px auto;
-    transition: .3s;
-}
-
-.cartao:hover {
-    transform: scale(1.11);
-}
-
-a {
-    color:rgb(14, 83, 5)
-}
-
-.banner {
-    background-color: salmon;
-    padding: 80px 0;
+header {
+    background-color: #fafafa;
+    padding: 10px;
     text-align: center;
 }
 
-.container {
-    background-color: rgba(172, 40, 155, 0.73);
-    padding: 80px 0;
+main {
+    padding: 20px;
+}
+
+.instagram-like-feed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post {
+    flex: 0 0 calc(33.33% - 10px); /* Tre post per riga, con spaziatura di 10px tra di essi */
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+/* Altri stili per il footer, puoi personalizzarli */
+footer {
+    background-color: #fafafa;
+    padding: 10px;
     text-align: center;
 }
-
-.bin {
-    background-color: aqua;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.up {
-    background-color: rgb(174, 13, 123);
-    padding: 40px 0;
-    text-align: center;
-}
-
-h4 {
-    color:gold;
-    font-size: 60px;
-}
-
