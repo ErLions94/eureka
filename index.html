@@ -9,39 +9,44 @@
     <style>
         
     @media (max-width: 767px) {
-        header .testi footer {display: none;}
-        .top {display: unset;}
+        .sopra {display: none;}
+        .sotto {display: none;}
     }
 
     @media (max-width: 480px) {
-        header .testi footer {display: unset;}
-        .top {display: none;}
+        .sopra {display: unset;}
+        .sotto {display: unset;}
     }
     
     </style>
-    <header>
-        <!-- Barra di navigazione o header del sito -->
+    <div class="sopra">
         <h1>Agorà FILT</h1>
-    </header>
-
-        <div class="top">
-            <h1>VIVA LA FILT!</h1>
+    </div>
+    <div class="testi">
+        <div class="post">
+            <p id="dynamic-text"></p>
         </div>
-
-    <main>
-        <!-- Contenuto principale -->
-        <div class="testi">
-            <!-- Le tue immagini o post andranno qui -->
-            <div class="post"></div>
-            <div class="post"></div>
-            <!-- Aggiungi altri post secondo necessità -->
-        </div>
-    </main>
-
-    <footer>
-        <!-- Piede di pagina del sito -->
+        <div class="post"></div>
+    </div>
+    <div class="sotto">
         <p>Iscriviti alla FILT</p>
-    </footer>
-    }
+    </div>
 </body>
+<script>
+    const dynamicText = document.getElementById('dynamic-text');
+
+    function updateTextBasedOnScreenWidth() {
+        const windowWidth = window.innerWidth;
+
+        if (windowWidth < 480) {
+            dynamicText.textContent = "Dopo gli scioperi del 14/04/2023 e del 13/07/2023...";
+        } else {
+            dynamicText.textContent = "";
+        }
+    }
+
+    updateTextBasedOnScreenWidth();
+
+    window.addEventListener('resize', updateTextBasedOnScreenWidth);
+</script>
 </html>
