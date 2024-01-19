@@ -24,7 +24,6 @@ body {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    white-space: nowrap;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
 }
