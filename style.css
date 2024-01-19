@@ -30,6 +30,12 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.text {
+    color: green;
+    background-color: yellow;
+    font-size: 12px;
+}
+
 .sotto {
     background-color: #fafafa;
     padding: 10px;
