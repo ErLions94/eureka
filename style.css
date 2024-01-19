@@ -33,6 +33,9 @@ body {
     color: green;
     background-color: yellow;
     font-size: 12px;
+    padding: 20px;
+    white-space: normal;
+}
 }
 
 .sotto {
