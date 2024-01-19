@@ -18,6 +18,7 @@ body {
     background-color: pink;
     width: 100vw;
     flex: 0 0 auto;
+    max-width: 100%;
 }
 
 .testi {
