@@ -18,7 +18,7 @@ body {
     background-color: pink;
     width: 100vw;
     flex: 0 0 auto;
-    max-width: 100%;
+    max-width: 100vh;
 }
 
 .testi {
@@ -34,7 +34,7 @@ body {
     color: green;
     background-color: yellow;
     font-size: 12px;
-    max-width: 100%;
+    max-width: 100vh;
 }
 }
 
